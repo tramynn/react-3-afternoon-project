@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 import Header from './components/Header';
 import Textbox from './components/Textbox';
 import BottomNav from './components/BottomNav/BottomNav';
-import data from './data';
 //css
 import './App.css';
 
@@ -12,7 +11,6 @@ class App extends Component {
     super();
 
     this.state = {
-
     };
   }
 

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import data from './data';
 import './Textbox.css';
 
 class Textbox extends Component {
@@ -10,6 +11,10 @@ class Textbox extends Component {
     }
 
     render() {
+
+        // let movies = data[0].favoriteMovies.map
+
+
         return(
             <div className="Textbox">
                 <div className="Textbox-info">
@@ -32,7 +37,7 @@ class Textbox extends Component {
                     </section>
                 </div>
                 <div className="Textbox-id">
-                    <h1>/25</h1>
+                    <h1>{0 + 1}/{data.length}</h1>
                 </div>
             </div>
         );
