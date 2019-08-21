@@ -19,15 +19,13 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <Header />
-          <nav className="App-home-nav">
-          </nav>
         </header>
         <body in className="App-body">
           <div className="Body-top-textbox">
             <section className="Textbox">
             </section>
           </div>
-          <section className="Body-bottom-nav">
+          <div className="Body-bottom-nav">
             <section className="Textbox-previous">
             </section>
             <section className="Textbox-middle-nav">
@@ -40,7 +38,7 @@ class App extends Component {
             </section>
             <section className="Textbox-next">
             </section>
-          </section>
+          </div>
         </body>
       </div>
     );

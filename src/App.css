@@ -13,24 +13,26 @@
   padding-right: 75vw;
 }
 
-.App-home-nav {
-
-}
-
 .App-body {
   background-color: #222222;
   height: 88vh;
   text-align: center;
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .Body-top-textbox {
-
+  background-color: white;
+  width: 75vw;
+  height: 50vh;
 }
 
 .Body-bottom-nav {
-
+  background-color: lightblue;
+  width: 75vw;
+  height: 10vh;
 }
 
 .Textbox-previous {
