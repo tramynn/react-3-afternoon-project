@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 //components
 import Header from './components/Header';
 import Textbox from './components/Textbox';
-
+import BottomNav from './components/BottomNav/BottomNav';
+import data from './data';
 //css
 import './App.css';
 
@@ -26,18 +27,7 @@ class App extends Component {
             <Textbox />
           </div>
           <div className="Body-bottom-nav">
-            <section className="Textbox-previous">
-            </section>
-            <section className="Textbox-middle-nav">
-              <section className="Textbox-edit">
-              </section>
-              <section className="Textbox-delete">
-              </section>
-              <section className="Textbox-new">
-              </section>
-            </section>
-            <section className="Textbox-next">
-            </section>
+            <BottomNav />
           </div>
         </body>
       </div>

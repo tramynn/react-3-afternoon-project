@@ -4,9 +4,8 @@ import './Textbox.css';
 class Textbox extends Component {
     constructor() {
         super();
-
         this.state = {
-
+            counter: 0
         };
     }
 
