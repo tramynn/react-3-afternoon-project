@@ -10,8 +10,8 @@ class App extends Component {
     return (
       <div className="App-main-container">
         <header className="App-header">
-          <section className="App-home-nav">
-          </section>
+          <nav className="App-home-nav">
+          </nav>
         </header>
         <main className="App-body">
           <section className="App-text-box">
@@ -21,7 +21,15 @@ class App extends Component {
               
             </section>
             <section className="App-edit-delete-new">
+              <section className="App-edit-nav">
 
+              </section>
+              <section className="App-delete-nav">
+
+              </section>
+              <section className="App-new-nav">
+
+              </section>
             </section>
             <section className="App-next-nav">
 
