@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 //components
 import Header from './components/Header';
+import Textbox from './components/Textbox';
 
 //css
 import './App.css';
@@ -22,8 +23,7 @@ class App extends Component {
         </header>
         <body in className="App-body">
           <div className="Body-top-textbox">
-            <section className="Textbox">
-            </section>
+            <Textbox />
           </div>
           <div className="Body-bottom-nav">
             <section className="Textbox-previous">
