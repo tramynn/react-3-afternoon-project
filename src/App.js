@@ -15,18 +15,18 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App-main-container">
+      <section className="App-main-container">
         <header className="App-header">
           <nav className="App-home-nav">
           </nav>
         </header>
-        <main className="App-body">
-          <div className="Body-top-text">
+        <body in className="App-body">
+          <div className="Body-top-textbox">
             <section className="Textbox">
             </section>
           </div>
-          <div className="Body-bottom-nav">
-            <section className="Textbox-previous-nav">
+          <section className="Body-bottom-nav">
+            <section className="Textbox-previous">
             </section>
             <section className="Textbox-middle-nav">
               <section className="Textbox-edit">
@@ -38,9 +38,9 @@ class App extends Component {
             </section>
             <section className="Textbox-next">
             </section>
-          </div>
-        </main>
-      </div>
+          </section>
+        </body>
+      </section>
     );
   }
 }

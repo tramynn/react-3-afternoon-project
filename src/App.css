@@ -24,18 +24,34 @@
 
 }
 
-.App-text-box {
+.Body-top-textbox {
 
 }
 
-.App-text-box-nav {
+.Body-bottom-nav {
 
 }
 
-.App-previous-nav {
+.Textbox-previous {
 
 }
 
-.App-edit-delete-nav {
+.Textbox-middle-nav {
+
+}
+
+.Textbox-edit {
+
+}
+
+.Textbox-delete {
+
+}
+
+.Textbox-new {
+
+}
+
+.Textbox-next {
   
 }
