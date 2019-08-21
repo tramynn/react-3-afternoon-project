@@ -5,7 +5,14 @@ import React, { Component } from 'react';
 import './App.css';
 
 class App extends Component {
-  
+  constructor() {
+    super();
+
+    this.state = {
+
+    };
+  }
+
   render() {
     return (
       <div className="App-main-container">
@@ -14,27 +21,24 @@ class App extends Component {
           </nav>
         </header>
         <main className="App-body">
-          <section className="App-text-box">
-          </section>
-          <section className="App-text-box-nav">
-            <section className="App-previous-nav">
-              
+          <div className="Body-top-text">
+            <section className="Textbox">
             </section>
-            <section className="App-edit-delete-new">
-              <section className="App-edit-nav">
-
+          </div>
+          <div className="Body-bottom-nav">
+            <section className="Textbox-previous-nav">
+            </section>
+            <section className="Textbox-middle-nav">
+              <section className="Textbox-edit">
               </section>
-              <section className="App-delete-nav">
-
+              <section className="Textbox-delete">
               </section>
-              <section className="App-new-nav">
-
+              <section className="Textbox-new">
               </section>
             </section>
-            <section className="App-next-nav">
-
+            <section className="Textbox-next">
             </section>
-          </section>
+          </div>
         </main>
       </div>
     );
