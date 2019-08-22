@@ -24,7 +24,6 @@ class App extends Component {
             <Textbox />
           </div>
           <div className="Body-bottom-nav">
-            <BottomNav />
           </div>
         </body>
       </div>
