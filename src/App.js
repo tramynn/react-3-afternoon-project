@@ -7,13 +7,12 @@ import BottomNav from './components/BottomNav/BottomNav';
 import './App.css';
 
 class App extends Component {
-  constructor() {
-    super();
+  // constructor() {
+  //   super();
 
-    this.state = {
-    };
-  }
-
+  //   this.state = {
+  //   };
+  // }
   render() {
     return (
       <div className="App">
