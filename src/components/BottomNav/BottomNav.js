@@ -2,15 +2,11 @@ import React, { Component } from 'react';
 import './BottomNav.css';
 
 class BottomNav extends Component {
-    constructor() {
-        super();
-    }
-    
     render() {
         return(
             <div className="bottom-nav-container">
                 <section className="Textbox-previous">
-                    <h2> &lt; Previous </h2>
+                    <h2 onClick={() => this.props.previous()}> &lt; Previous </h2>
                 </section>
                 <section className="Textbox-middle-nav">
                     <section className="Textbox-edit">
@@ -24,7 +20,7 @@ class BottomNav extends Component {
                     </section>
                 </section>
                 <section className="Textbox-next">
-                    <h2>Next &gt;</h2>
+                    <h2 onClick={() => this.props.next()}>Next &gt;</h2>
                 </section>
             </div>
         );

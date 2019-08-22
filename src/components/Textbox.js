@@ -12,21 +12,28 @@ class Textbox extends Component {
 
         this.increment = this.increment.bind(this);
         this.decrement = this.decrement.bind(this);
-        this.changeCounter = this.changeCounter.bind(this);
     }
 
     increment() {
         this.setState({
             index: this.state.index + 1
         });
+        if (this.state.index >= data.length - 1) {
+            this.setState({
+                index: 0
+            })
+        }
     }
 
     decrement() {
-
-    }
-
-    changeCounter() {
-
+        this.setState({
+            index: this.state.index - 1
+        });
+        if (this.state.index <= 0) {
+            this.setState({
+                index: data.length - 1
+            });
+        }
     }
 
     render() {
@@ -34,7 +41,6 @@ class Textbox extends Component {
         let movies = data[this.state.index].favoriteMovies.map((item) => {
             return <li>{item}</li>;
         });
-
 
         return(
             <div>
@@ -60,7 +66,7 @@ class Textbox extends Component {
                         <h1>{this.state.index + 1}/{data.length}</h1>
                     </div>
                 </div>
-                <BottomNav />
+                <BottomNav previous={this.decrement} next={this.increment} />
             </div>
             
         );

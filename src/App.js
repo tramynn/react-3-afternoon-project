@@ -7,12 +7,6 @@ import BottomNav from './components/BottomNav/BottomNav';
 import './App.css';
 
 class App extends Component {
-  // constructor() {
-  //   super();
-
-  //   this.state = {
-  //   };
-  // }
   render() {
     return (
       <div className="App">
@@ -22,8 +16,6 @@ class App extends Component {
         <body in className="App-body">
           <div className="Body-top-textbox">
             <Textbox />
-          </div>
-          <div className="Body-bottom-nav">
           </div>
         </body>
       </div>
