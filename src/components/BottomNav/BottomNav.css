@@ -1,11 +1,40 @@
 .bottom-nav-container {
     width: 75vw;
-    height: 8vh;
+    height: 7vh;
     display: flex;
 }
 
-.Textbox-previous, .Textbox-middle-nav, .Textbox-next {
-    background-color: lightblue;
-    width: 34%;
+.Textbox-previous, .Textbox-next {
+    color: white;
+    width: 25%;
     height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.Textbox-middle-nav {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.button {
+    background-color: #35A5DA;
+    color: white;
+    border-radius: 14px;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 5px 15px;
+    border: none;
+    margin: 0 10px;
+}
+
+.Textbox-previous {
+    justify-content: flex-start;
+}
+
+.Textbox-next {
+    justify-content: flex-end;
 }

@@ -36,9 +36,3 @@
   height: 8vh;
   display: flex;
 }
-
-.Textbox-previous, .Textbox-middle-nav, .Textbox-next {
-    background-color: lightblue;
-    width: 34%;
-    height: 100%;
-}

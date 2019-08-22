@@ -10,16 +10,21 @@ class BottomNav extends Component {
         return(
             <div className="bottom-nav-container">
                 <section className="Textbox-previous">
+                    <h2> &lt; Previous </h2>
                 </section>
                 <section className="Textbox-middle-nav">
-                </section>
-                <section className="Textbox-edit">
-                </section>
-                <section className="Textbox-delete">
-                </section>
-                <section className="Textbox-new">
+                    <section className="Textbox-edit">
+                        <button className="button">Edit</button>
+                    </section>
+                    <section className="Textbox-delete">
+                        <button className="button">Delete</button>
+                    </section>
+                    <section className="Textbox-new">
+                        <button className="button">New</button>
+                    </section>
                 </section>
                 <section className="Textbox-next">
+                    <h2>Next &gt;</h2>
                 </section>
             </div>
         );
